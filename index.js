@@ -1,5 +1,4 @@
 import React, { PureComponent, PropTypes } from 'react'
-import { connect } from 'react-redux'
 import Ionicons from 'react-native-vector-icons/Ionicons'
 import {
   TouchableWithoutFeedback,
@@ -15,15 +14,12 @@ import {
 import Icon from 'react-native-vector-icons/Ionicons'
 
 import styles from './styles'
-import navigation from '../../lib/navigation'
 import ViewPager from '../ViewPager'
 
 import { Touchable } from '../'
 
 const deviceWidth = Dimensions.get('window').width
 
-@connect()
-@navigation
 export default class Layout extends PureComponent {
   static propTypes = {
     navigator: PropTypes.object,
