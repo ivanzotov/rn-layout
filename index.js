@@ -11,12 +11,12 @@ import {
   Platform,
 } from 'react-native'
 
+import Touchable from 'rn-touchable'
+import ViewPager from 'rn-view-pager'
+
 import Icon from 'react-native-vector-icons/Ionicons'
 
 import styles from './styles'
-import ViewPager from '../ViewPager'
-
-import { Touchable } from '../'
 
 const deviceWidth = Dimensions.get('window').width
 

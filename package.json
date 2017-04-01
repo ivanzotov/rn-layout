@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ivanzotov/rn-layout/issues"
   },
-  "homepage": "https://github.com/ivanzotov/rn-layout#readme"
+  "homepage": "https://github.com/ivanzotov/rn-layout#readme",
+  "dependencies": {
+    "rn-touchable": "git+ssh://git@github.com/ivanzotov/rn-touchable.git",
+    "rn-view-pager": "git+ssh://git@github.com/ivanzotov/rn-view-pager.git"
+  }
 }
