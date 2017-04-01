@@ -1,0 +1,19 @@
+{
+  "name": "rn-layout",
+  "version": "1.0.0",
+  "description": "Layout component for React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanzotov/rn-layout.git"
+  },
+  "author": "Ivan Zotov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanzotov/rn-layout/issues"
+  },
+  "homepage": "https://github.com/ivanzotov/rn-layout#readme"
+}
